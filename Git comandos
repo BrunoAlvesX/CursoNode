@@ -1,0 +1,19 @@
+para ver qual a url remota esta setada
+git remote -v 
+
+para ver o usuario
+git config user.name 
+
+para ver o email
+git config user.email
+
+trocar de branch
+git checkout <sua-branch> 
+
+atualizar a branch
+git pull origin <sua-branch>
+
+para listar as informacoes do git
+git config --list
+
+
