@@ -1,0 +1,3 @@
+var -> variavel por ser mudada a qualquer momento mas não o seu tipo
+const -> a a variavel não pode ser redeclarada, porém pode ter seu valor alterado por métodos
+let -> meu filho isso aqui é a mesma coisa que uma variavel de python faz oque quiser
