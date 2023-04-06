@@ -16,4 +16,7 @@ git pull origin <sua-branch>
 para listar as informacoes do git
 git config --list
 
+Para desfazer o último commit feito você deve usar o comando a seguir:
+git reset HEAD~1
+
 
