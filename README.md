@@ -34,3 +34,5 @@ como remover um pacote
 npm uninstall pacote
 
 para instalar o express basta rodar o comando npm install express
+
+npm install nodemon --save-dev nodemon
