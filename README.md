@@ -36,3 +36,6 @@ npm uninstall pacote
 para instalar o express basta rodar o comando npm install express
 
 npm install nodemon --save-dev nodemon
+
+para instalar td junto basta digitar por exemplo:
+npm install nodemon express express-handlebars

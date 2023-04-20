@@ -10,7 +10,6 @@ router.use(
     })
 )
 
-
 router.use(express.json())
 
 const basePath = path.join(__dirname, '../templates')
