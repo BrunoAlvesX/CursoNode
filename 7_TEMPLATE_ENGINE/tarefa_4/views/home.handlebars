@@ -1,7 +1,11 @@
-<h1>Home</h1>
+<h1>Confira os nossos produtos</h1>
 <a href="/">Voltar</a>
 <ul>
-    {{#each items}}
-     <a href=""><li>ID: - {{this}}</li></a>   
-    {{/each}}
+{{#each products}}
+    <div>
+        <h3>{{this.title}}</h3>
+        <p>R${{this.price}}</p>
+        <p><a href="/product/{{this.id}}">Ver mais</a></p>
+    </div>
+{{/each}}
 </ul>

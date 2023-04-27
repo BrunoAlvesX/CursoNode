@@ -1,6 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
-const mysql = require('mysql')
+const mysql = require('mysql2')
 
 const app = express()
 
