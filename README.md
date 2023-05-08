@@ -39,3 +39,6 @@ npm install nodemon --save-dev nodemon
 
 para instalar td junto basta digitar por exemplo:
 npm install nodemon express express-handlebars
+
+para usar o sequelize basta usar o comando 
+npm install sequelize e npm install mysql2
