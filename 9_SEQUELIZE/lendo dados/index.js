@@ -37,8 +37,11 @@ app.post('/users/create', async(request,response) => {
     response.redirect('/')
 })
 
-app.get('/', (request,response) => {
-    response.render('home')
+app.get('/', async (request,response) => {
+
+    const users = await User.findAll({raw: true})
+    console.log(users)
+    response.render('home', { users: users})
 })
 
 conn.sync().then(() => {
