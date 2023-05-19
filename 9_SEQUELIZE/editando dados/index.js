@@ -54,9 +54,9 @@ app.post('/users/delete/:id', async (request,response) => {
 app.get('/users/edit/:id', async (request,response) => { 
     const id = request.params.id
 
-    const user = await User.findOne({ raw: true, where: { id:id }})
+    const user = await User.findOne({ raw: true, where: { id: id }})
 
-    response.redirect('useredit', { user })
+    response.render('useredit', { user })
 })
 
 app.get('/', async (request,response) => {
