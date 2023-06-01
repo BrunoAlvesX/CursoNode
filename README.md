@@ -42,3 +42,5 @@ npm install nodemon express express-handlebars
 
 para usar o sequelize basta usar o comando 
 npm install sequelize e npm install mysql2
+
+npm install express express-handlebars mysql2 sequelize nodemon
