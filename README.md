@@ -44,3 +44,5 @@ para usar o sequelize basta usar o comando
 npm install sequelize e npm install mysql2
 
 npm install express express-handlebars mysql2 sequelize nodemon
+
+npm install bcryptjs connect-flash cookie-parser cookie-session express express-flash express-session mysql2 sequelize nodemon session-file-store express-handlebars
