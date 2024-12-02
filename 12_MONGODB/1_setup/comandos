@@ -1,0 +1,9 @@
+show dbs lista os bancos
+use database cria um banco
+mongodb so cria o banco se tiver dados
+inserindo dados
+db.primeiracollection.insertOne({ nome: bruno, idade: 32}) toda vez que cria um registro no mongo ele cria um id unico
+buscando um dado
+db.primeiracollection.findOne()
+
+npm install express express-handlebars mongodb nodemon
